@@ -1,0 +1,46 @@
+models:
+  - name: fct_orders
+    latest_version: 1 ##Call out which version will be the default version when running this model
+    access: public
+    config:
+      contract:
+        enforced: true
+    columns:
+      - name: order_id
+        data_type: varchar
+      - name: location_id
+        data_type: varchar
+      - name: customer_id
+        data_type: varchar
+      - name: order_total
+        data_type: number
+      - name: tax_paid
+        data_type: number
+      - name: ordered_at
+        data_type: timestamp_ntz
+      - name: customer_name
+        data_type: varchar
+      - name: location_name
+        data_type: varchar
+      - name: tax_rate
+        data_type: float
+      - name: location_opened_at
+        data_type: timestamp_ntz
+      - name: ordered_month
+        data_type: number
+      - name: ordered_day
+        data_type: number
+      - name: ordered_year
+        data_type: number
+    versions:                     ###Add versioning section defining each version and listing changes to contract
+      - v: 1
+          ##Matches above! Nothing more needed
+      - v: 2
+        columns:
+          - name: order_amount      ##v2 Adds in new column name and date type change
+            data_type: number
+          - name: location_opened_at
+            data_type: date
+          - include: all            ##Includes all other fields
+            exclude: [order_total]   ##But removes the old name of order_total
+    
