@@ -1,0 +1,7 @@
+models:
+  - name: stg_customers
+    description: description
+    columns:
+      - name: customer_id
+        tests:
+          - unique

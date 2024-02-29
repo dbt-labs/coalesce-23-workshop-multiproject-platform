@@ -35,6 +35,8 @@ models:
     versions:                     ###Add versioning section defining each version and listing changes to contract
       - v: 1
           ##Matches above! Nothing more needed
+        config:
+            alias: fct_orders
       - v: 2
         columns:
           - name: order_amount      ##v2 Adds in new column name and date type change
