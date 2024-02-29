@@ -1,12 +1,13 @@
 models:
   - name: fct_orders
-    description: Order data, one row per order
+    description: Order data, one row per order. Carolfunupdate
     access: public 
     config:
       contract:
         enforced: true
     columns:
       - name: order_id
+        description: Unique identifier for table
         data_type: varchar
       - name: location_id
         data_type: varchar
