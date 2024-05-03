@@ -1,4 +1,6 @@
 models:
+  - name: int_orders
+    access: public
   - name: fct_orders
     description: Order data, one row per order. Carolfunupdate
     access: public 
