@@ -1,9 +1,0 @@
-###File name is _models.yml
-##Should be saved under models/marts
-
-models:
-  - name: fct_orders
-    description: Order data, one row per order
-    access: public
-    config:
-      group: revenue
