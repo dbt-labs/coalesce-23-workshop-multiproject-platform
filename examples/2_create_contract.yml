@@ -7,6 +7,7 @@ models:
   - name: fct_orders
     access: public
     config:
+      group: revenue
       contract:
         enforced: true
     columns:
