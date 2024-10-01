@@ -11,6 +11,7 @@ models:
   - name: {{ model }}
     access: public
     config:
+      group: revenue
       contract:
         enforced: true
     columns:
