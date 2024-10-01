@@ -1,5 +1,12 @@
 {% macro create_contract(model) %}
-    {% set cols=adapter.get_columns_in_relation(model) %}
+
+    {%- set tbl_relation = api.Relation.create(
+                database=this.database,
+                schema=this.schema,
+                identifier=model
+            ) -%}
+
+    {% set cols=adapter.get_columns_in_relation(tbl_relation) %}
 models:
   - name: {{ model }}
     access: public
