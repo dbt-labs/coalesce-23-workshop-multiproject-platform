@@ -3,6 +3,7 @@ models:
     description: Customer and order details
     access: public
     config:
+      group: revenue
       contract:
         enforced: true
     columns:
