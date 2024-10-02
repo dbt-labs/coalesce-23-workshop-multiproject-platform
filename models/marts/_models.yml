@@ -41,7 +41,7 @@ models:
     versions:
     
       - v: 1
-        deprecation_date: '2024-11-30'
+        deprecation_date: '2024-11-29'
         columns:
           # This means: use the 'columns' list from above, but exclude high_order_value
           - include: all
