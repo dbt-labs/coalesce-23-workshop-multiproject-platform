@@ -1,6 +1,7 @@
 models:
   - name: fct_orders
     description: Customer and order details
+    latest_version: 2
     access: public
     config:
       group: revenue
