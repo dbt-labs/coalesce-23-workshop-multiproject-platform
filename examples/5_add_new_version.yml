@@ -1,6 +1,6 @@
 models:
   - name: fct_orders
-    description: Customer and order details
+    description: Order data, one row per order
     access: public
     config:
       group: revenue
