@@ -42,12 +42,12 @@ models:
       - v: 1
         deprecation_date: 2024-12-31 00:00:00.00+00:00
         columns:
-          # This means: use the 'columns' list from above, but exclude is_return
+          # This means: use the 'columns' list from above, but exclude high_order_value
           - include: all
             exclude: [high_order_value]
         
       - v: 2
         columns:
-          # This means: use the 'columns' list from above, but exclude status
+          # This means: use the 'columns' list from above, but exclude tax_rate
           - include: all
             exclude: [tax_rate]
