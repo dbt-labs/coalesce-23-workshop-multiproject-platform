@@ -9,6 +9,7 @@
     {% set cols=adapter.get_columns_in_relation(tbl_relation) %}
 models:
   - name: {{ model }}
+    description: Order data, one row per order
     access: public
     config:
       group: revenue
