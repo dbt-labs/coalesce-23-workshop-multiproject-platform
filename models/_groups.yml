@@ -6,3 +6,7 @@ groups:
   - name:  revenue
     owner:
       email: revenue.team@dbtlabs.com 
+
+  - name:  product
+    owner:
+      email: product.team@dbtlabs.com 

@@ -51,3 +51,28 @@ models:
           # This means: use the 'columns' list from above, but exclude tax_rate
           - include: all
             exclude: [tax_rate]
+
+  - name: dim_product_supplies
+    description: dim product supplies
+    access: public
+    config:
+      group: product
+      contract:
+        enforced: true
+    columns:
+      - name: product_id
+        data_type: varchar
+      - name: product_name
+        data_type: varchar
+      - name: product_type
+        data_type: varchar
+      - name: product_description
+        data_type: varchar
+      - name: product_price
+        data_type: number
+      - name: is_food_item
+        data_type: boolean
+      - name: is_drink_item
+        data_type: boolean
+      - name: supply_cost
+        data_type: number
