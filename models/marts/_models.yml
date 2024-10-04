@@ -9,6 +9,8 @@ models:
     columns:
       - name: order_id
         data_type: varchar
+        constraints: 
+          - type: not_null
       - name: location_id
         data_type: varchar
       - name: customer_id
@@ -34,7 +36,7 @@ models:
       - name: ordered_day
         data_type: number
       - name: ordered_year
-        data_type: number    
+        data_type: number
 
     # Declare the versions, and highlight the diffs
     versions:
