@@ -32,4 +32,20 @@ models:
           data_type: number
         - name: ordered_year
           data_type: number
+        - name: high_order_value
+          data_type: boolean
       description: 'Order data, one row per order'
+      versions:
+    
+        - v: 1
+          deprecation_date: 2024-12-31 00:00:00.00+00:00
+          columns:
+            # This means: use the 'columns' list from above, but exclude high_order_value
+            - include: all
+              exclude: [high_order_value]
+          
+        - v: 2
+          columns:
+            # This means: use the 'columns' list from above, but exclude tax_rate
+            - include: all
+              exclude: [tax_rate]
