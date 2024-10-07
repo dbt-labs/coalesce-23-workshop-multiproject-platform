@@ -1,0 +1,11 @@
+version: 2
+
+groups:
+  - name: foundation
+    owner:
+      email: foundation.example@dbtlabs.com
+  - name: revenue
+    owner:
+      email: revenue.example@dbtlabs.com
+
+
