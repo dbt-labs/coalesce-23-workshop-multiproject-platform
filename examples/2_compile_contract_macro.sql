@@ -1,3 +1,2 @@
-/**Hit Compile**/
 
-{{ create_contract('fct_orders') }}
+{{ create_contract("fct_orders") }}
