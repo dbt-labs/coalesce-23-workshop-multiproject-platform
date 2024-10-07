@@ -1,0 +1,7 @@
+groups: 
+  - name: foundation
+    owner:
+      email: sandeep.maddineni@salesfore.com 
+  - name: revenue
+    owner:
+      email: sandeep.maddineni@salesforce.com
