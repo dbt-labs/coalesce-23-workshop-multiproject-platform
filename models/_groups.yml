@@ -1,0 +1,15 @@
+groups:
+  - name: foundation
+    owner:
+      # 'name' or 'email' is required; additional properties allowed
+      email: foundation@jaffleshop.com
+      slack: foundation-data
+      github: foundation-data-team
+  - name: revenue
+    owner:
+      # 'name' or 'email' is required; additional properties allowed
+      email: revenue@jaffleshop.com
+  - name: marketing
+    owner:
+      # 'name' or 'email' is required; additional properties allowed
+      email: marketing@jaffleshop.com
