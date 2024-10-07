@@ -1,0 +1,6 @@
+models:
+  - name: fct_orders
+    config:
+      groups: revenue
+      access: public
+    description: Order data, one row per order
