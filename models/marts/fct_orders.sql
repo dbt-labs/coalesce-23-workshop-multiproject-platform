@@ -20,5 +20,5 @@ final as (
     from orders
 )
 
-select * 
+select *, 'one' as one_new_column
 from final
