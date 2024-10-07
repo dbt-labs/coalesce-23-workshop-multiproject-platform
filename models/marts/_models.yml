@@ -1,5 +1,11 @@
 models:
   - name: fct_orders
+    versions:
+      - v: 1
+      - v: 2
+        columns:
+          - include: all
+            exclude: ["tax_rate"]
     description: Order data, one row per order
     access: public
     config:
