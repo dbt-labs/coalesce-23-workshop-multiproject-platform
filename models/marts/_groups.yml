@@ -1,4 +1,7 @@
 groups:
   - name: foundation
     owner: 
-        email: test@test.com
+      email: test@test.com
+  - name: revenue
+    owner: 
+      email: test@test.com
