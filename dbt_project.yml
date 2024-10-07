@@ -24,5 +24,6 @@ models:
   core_platform:
     staging:
       +materialized: view
+      +groups: foundation
     marts:
       +materialized: table
