@@ -10,6 +10,7 @@ final as (
         order_total,
         tax_paid,
         ordered_at,
+        case when order_total > 100 then true else false end as high_order_value,
         customer_name,
         location_name,
         tax_rate,
