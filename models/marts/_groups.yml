@@ -1,0 +1,9 @@
+groups:
+  - name: foundation
+    owner: # 'name' or 'email' is required
+      email: foundation@zillow.com 
+
+  - name: revenue
+    owner:
+      email: revenue@zillow.com 
+
