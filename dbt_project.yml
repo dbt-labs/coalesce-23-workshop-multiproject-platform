@@ -23,6 +23,8 @@ vars:
 models:
   core_platform:
     staging:
+      +access: protected
       +materialized: view
+      +group: foundation
     marts:
       +materialized: table
