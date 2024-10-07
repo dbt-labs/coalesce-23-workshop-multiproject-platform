@@ -1,0 +1,5 @@
+models:
+  - name: fct_orders
+    group: revenue
+    description: Order data, one row per order
+    access: public
