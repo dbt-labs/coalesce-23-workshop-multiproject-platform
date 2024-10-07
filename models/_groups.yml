@@ -1,0 +1,10 @@
+groups: 
+  - name: foundation
+    owner:
+        name: foundation
+        email: foundation@jaffleshop.com
+
+  - name: revenue
+    owner:
+        name: revenue
+        email: revenue@jaffleshop.com

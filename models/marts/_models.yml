@@ -1,0 +1,12 @@
+models:
+  - name: dim_product_supplies
+    group: foundation
+    access: public
+    
+  - name: fct_order_items
+    group: revenue
+    access: public
+    
+  - name: fct_orders
+    group: revenue
+    access: public
