@@ -43,6 +43,7 @@ models:
           - include: all
             exclude: [is_high_order_value]
       - v: 2
+        alias: fct_orders
         columns:
           - include: all
             exclude: [tax_rate]
