@@ -1,0 +1,8 @@
+groups:
+   - name: foundation
+     owner:
+        email: test123@gmail.com
+      
+   - name: revenue
+     owner:
+        email: test123@gmail.com
