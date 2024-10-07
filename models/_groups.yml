@@ -1,0 +1,10 @@
+groups:
+  - name: foundation
+    owner:
+      name: foundation
+      email: foundation@email.com
+
+  - name: revenue
+    owner:
+      name: revenue
+      email: revenue@email.com
