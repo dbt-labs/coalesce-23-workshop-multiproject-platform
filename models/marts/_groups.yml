@@ -1,0 +1,9 @@
+groups:
+  - name: foundation
+    owner:
+      # 'name' or 'email' is required; additional properties allowed
+      email: finance@jaffleshop.com
+  - name: revenue
+    owner:
+      # 'name' or 'email' is required; additional properties allowed
+      email: revenue@jaffleshop.com
