@@ -1,0 +1,7 @@
+models: 
+
+  - name: fct_orders 
+    description: Model that provides facts around orders. 
+    access: public 
+    config: 
+      group: revenue
