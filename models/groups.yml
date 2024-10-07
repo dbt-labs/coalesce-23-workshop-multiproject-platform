@@ -1,0 +1,7 @@
+groups:
+  - name: revenue
+    owner:
+      name: Finance Team
+  - name: foundation
+    owner:
+      name: Engineering Team
