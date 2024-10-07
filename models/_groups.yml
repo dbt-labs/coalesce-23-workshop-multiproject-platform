@@ -1,0 +1,9 @@
+groups:
+  - name: foundation
+    owner: 
+      email: foundation.team@dbtproject.com
+  - name: revenue
+    owner: 
+      email: revenue.owner@dbtproject.com
+
+      
