@@ -1,0 +1,8 @@
+groups:
+  - name: foundation
+    owner: 
+      email: foundation@gmail.com 
+
+  - name:  revenue
+    owner:
+      email: revenue@gmail.com 
