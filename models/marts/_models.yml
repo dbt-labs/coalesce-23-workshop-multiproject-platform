@@ -2,6 +2,7 @@ models:
   - name: fct_orders
     description: Order data, one row per order
     access: public
+    latest_version: 2
     config:
       group: revenue
       contract:
